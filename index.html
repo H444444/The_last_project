@@ -65,7 +65,7 @@
         </div>
         <div class="icon2">
           <div>
-            <button onclick="toggle2()" id="btnh1" class="btn"><i class="fa-solid fa-heart"></i></button>
+            <button onclick="toggle2()" id="btnh2" class="btn"><i class="fa-solid fa-heart"></i></button>
           </div>
           <div class="del">
             <button class="faSolid"><i class="fa-solid fa-trash"></i></button>
@@ -94,7 +94,7 @@
         </div>
         <div class="icon3">
           <div>
-            <button onclick="toggle3()" id="btnh1" class="btn"><i class="fa-solid fa-heart"></i></button>
+            <button onclick="toggle3()" id="btnh3" class="btn"><i class="fa-solid fa-heart"></i></button>
           </div>
           <div class="del">
             <button class="faSolid"><i class="fa-solid fa-trash"></i></button>
@@ -109,6 +109,42 @@
       </div>
     </div>
   </div>
+  <script>
+
+    //first button
+    var btnvar1 = document.getElementById('btnh1')
+    function toggle1(){
+       if ( btnvar1.style.color == "red"){
+        btnvar1.style.color= "black"
+       }
+       else{
+        btnvar1.style.color="red"
+       }
+    }
+
+     //second button
+     var btnvar2 = document.getElementById('btnh2')
+    function toggle2(){
+       if ( btnvar2.style.color == "red"){
+        btnvar2.style.color= "black"
+       }
+       else{
+        btnvar2.style.color="red"
+       }
+    }
+
+
+     //third button
+     var btnvar3 = document.getElementById('btnh3')
+    function toggle3(){
+       if ( btnvar3.style.color == "red"){
+        btnvar3.style.color= "black"
+       }
+       else{
+        btnvar3.style.color="red"
+       }
+    }
+  </script>
   <script src="script.js"></script>
 </body>
 
