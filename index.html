@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/c9e0da8296.js" crossorigin="anonymous"></script>
+  <title>The last GoMycode project</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="articles">
+      <!--box1-->
+      <div class="box">
+        <img src="BCAA.jpg" height="150px" width="90px" alt="">
+        <h3>BCAA</h3>
+        <div>
+          <span>Prix Unitaire</span>
+          <span>20000</span>
+          <span>XOF</span>
+        </div>
+        <!--prix-totalUnitaire-->
+        <div class="totalUnit">
+          <span>Total Unitaire</span>
+          <span class="price">0</span>
+          <span>XOF</span>
+        </div>
+        <div>
+          <button class="moins">-</button>
+          <span class="num">0</span>
+          <button class="plus">+</button>
+        </div>
+        <div class="icon1">
+          <div>
+            <button onclick="toggle1()" id="btnh1" class="btn"><i class="fa-solid fa-heart"></i></button>
+          </div>
+          <div class="del">
+            <div>
+              <button class="faSolid"><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--box2-->
+      <div class="box">
+        <img src="creatine.jpg" height="150px" width="90px" alt="">
+        <h3>Creatine</h3>
+        <div>
+          <span>Prix Unitaire</span>
+          <span>18000</span>
+          <span>XOF</span>
+        </div>
+        <!--prix-totalUnitaire-->
+        <div class="totalUnit">
+          <span>Total Unitaire </span>
+          <span class="price">0</span>
+          <span>XOF</span>
+        </div>
+        <div>
+          <button class="moins">-</button>
+          <span class="num">0</span>
+          <button class="plus">+</button>
+        </div>
+        <div class="icon2">
+          <div>
+            <button onclick="toggle2()" id="btnh1" class="btn"><i class="fa-solid fa-heart"></i></button>
+          </div>
+          <div class="del">
+            <button class="faSolid"><i class="fa-solid fa-trash"></i></button>
+          </div>
+        </div>
+      </div>
+      <!--box3-->
+      <div class="box">
+        <img src="mass tech.jpg" height="150px" width="90px" alt="">
+        <h3>Mass Tech</h3>
+        <div>
+          <span>Prix Unitaire</span>
+          <span>35000</span>
+          <span>XOF</span>
+        </div>
+        <!--prix-totalUnitaire-->
+        <div class="totalUnit">
+          <span>Total Unitaire </span>
+          <span class="price">0</span>
+          <span>XOF</span>
+        </div>
+        <div>
+          <button class="moins">-</button>
+          <span class="num">0</span>
+          <button class="plus">+</button>
+        </div>
+        <div class="icon3">
+          <div>
+            <button onclick="toggle3()" id="btnh1" class="btn"><i class="fa-solid fa-heart"></i></button>
+          </div>
+          <div class="del">
+            <button class="faSolid"><i class="fa-solid fa-trash"></i></button>
+          </div>
+        </div>
+      </div>
+      <!--totalUnitaire-->
+      <div class="sammba">
+        <span>Total Commande:</span>
+        <span id="tyu">0</span>
+        <span>XOF</span>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
